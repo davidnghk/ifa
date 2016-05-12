@@ -50,3 +50,5 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'descriptive_statistics', '~> 2.4.0', :require => 'descriptive_statistics/safe'
 gem "stock_quote"
 gem 'will_paginate-bootstrap'
+gem 'simple_form'
+gem 'devise'
