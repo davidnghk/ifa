@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ticker:</strong>
+  <%= @stock.ticker %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @stock.name %>
+</p>
+
+<p>
+  <strong>Last price:</strong>
+  <%= @stock.last_price %>
+</p>
+
+<p>
+  <strong>Pricing date:</strong>
+  <%= @stock.pricing_date %>
+</p>
+
+<p>
+  <strong>Return:</strong>
+  <%= @stock.roi %>
+</p>
+
+<p>
+  <strong>Risk:</strong>
+  <%= @stock.risk %>
+</p>
+
+<p>
+  <strong>Sharpe:</strong>
+  <%= @stock.sharpe %>
+</p>
+
+<p>
+  <strong>Alpha:</strong>
+  <%= @stock.alpha %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @stock.parent_id %>
+</p>
+
+<p>
+  <strong>No of prices:</strong>
+  <%= @stock.no_of_prices %>
+</p>
+
+<%= link_to 'Edit', edit_stock_path(@stock) %> |
+<%= link_to 'Back', stocks_path %>

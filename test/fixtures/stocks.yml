@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ticker: MyString
+  name: MyString
+  last_price: 9.99
+  pricing_date: 2016-05-12
+  return: 9.99
+  risk: 9.99
+  sharpe: 9.99
+  alpha: 9.99
+  parent_id: 1
+  no_of_prices: 1
+
+two:
+  ticker: MyString
+  name: MyString
+  last_price: 9.99
+  pricing_date: 2016-05-12
+  return: 9.99
+  risk: 9.99
+  sharpe: 9.99
+  alpha: 9.99
+  parent_id: 1
+  no_of_prices: 1
